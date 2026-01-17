@@ -21,8 +21,6 @@ body {
     display: flex;
     flex: 1;
     background-color: #1f2937;
-    border: green;
-    border-style: solid;
     justify-content: center;
     padding: 50px;
 }
@@ -32,6 +30,27 @@ body {
     flex-direction: column;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.gallery {
+    border: red;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: green;
+    border-style: solid;
 }
 
 a {
