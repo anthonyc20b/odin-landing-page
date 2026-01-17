@@ -65,6 +65,52 @@ body {
     color: grey;
 }
 
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.qoute {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.credit {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+
+.cta {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #3882f6;
+    padding: 32px;
+    margin: 40px;
+    border-radius: 5px;
+    color: #e5e7eb;
+}
+
+.cta-header {
+    font-weight: 900;
+}
+
+.cta-button {
+    display: flex;
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
 a {
     text-decoration: none;
     color: white;
