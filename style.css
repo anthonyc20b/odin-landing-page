@@ -88,12 +88,18 @@ body {
 .cta {
     display: flex;
     flex: 1;
-    flex-direction: row;
     background-color: #3882f6;
     padding: 32px;
-    margin: 40px;
+    margin: 50px;
     border-radius: 5px;
+    gap: 5px;
     color: #e5e7eb;
+    justify-content: space-around;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .cta-header {
@@ -109,6 +115,14 @@ body {
     border: 2px solid white;
     border-radius: 12px;
     font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 30px;
 }
 
 a {
